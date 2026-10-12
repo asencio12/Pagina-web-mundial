@@ -1,33 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Styled Page</title>
-    <!-- This line connects your CSS file -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reservas - El Aroma</title>
     <link rel="stylesheet" href="style.css">
-     <h1>Cafeteria El Aroma</h1>
-   
 </head>
 <body>
-     <head> 
-        <h2 style = "text-align:center;"> Bienvenido a El Aroma"</h2>
-        </nav>
-        <a style = "tecxt-align: center;">Menu"</a>
-        <a href="page1-html">Menú</a>
-        <a href="page1-html">Reserva</a>
+    <header>
+        <h1>Cafetería El Aroma</h1>
         <nav>
+            <a href="1.html">Inicio</a>
+            <a href="2.html">Menú</a>
+            <a href="3.html">Reservas</a>
+        </nav>
+    </header>
 
-
-
-
-
-     </head>
-    <a href="page1.html">Inicio</a>
-    <p>This </p>
+    <main>
+        <section>
+            <h2>Reserva tu mesa</h2>
+            <form>
+                <p><label>Nombre: <input type="text" name="nombre"></label></p>
+                <p><label>Fecha: <input type="date" name="fecha"></label></p>
+                <p><label>Personas: <input type="number" name="personas" min="1" value="2"></label></p>
+                <p><button type="submit">Reservar</button></p>
+            </form>
+        </section>
+    </main>
 </body>
-
-<link rel="stylesheet" href="style.css">
-
-
 </html>
